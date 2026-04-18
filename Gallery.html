@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Pasta Heaven</h1>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Menu.html">menu</a></li>
+            <li><a href="Contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Looks Just Like The Image</h2>
+    </main>
+    <div class="gallery-container">
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Bolognese.jpg">
+    <div class="description">Spaghetti Bolognese</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Alfredo.jpg">
+    <div class="description">Fettuccine Alfredo</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Penne Arrabbiata.jpg">
+    <div class="description">Penne Arrabbiata</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Lasagna al Forno.jpg">
+    <div class="description">Lasagna al Forno</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Seafood Linguine.jpg">
+    <div class="description">Seafood Linguine</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Chicken Parmesan Pasta.jpg">
+    <div class="description">Chicken Parmesan</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Vegetarian Primavera.jpg">
+    <div class="description">Vegetarian Primavera</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Truffle Mushroom Pasta.jpg">
+    <div class="description">Truffle Mushroom</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Cheesy Garlic Bread.jpg">
+    <div class="description">Cheesy Garlic Bread</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Iced Lemon Tea.jpg">
+    <div class="description">Iced Lemon Tea</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Fresh Orange Juice.jpg">
+    <div class="description">Fresh Orange Juice</div>
+  </div>
+
+  <div class="gallery" onclick="openImage(this)">
+    <img src="images/Italian Soda.jpg">
+    <div class="description">Italian Soda</div>
+  </div>
+
+</div>
+
+<!-- Popup -->
+<div id="popup" class="popup" onclick="closeImage()">
+  <span class="close-btn">&times;</span>
+  <img id="popupImg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
